@@ -1,0 +1,30 @@
+{
+  "name": "devcom/payamgir",
+  "type": "project",
+  "require": {
+    "longman/telegram-bot": "^0.81.0",
+    "monolog/monolog": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Devcom\\Payamgir\\": [
+        "src/"
+      ],
+      "Devcom\\Payamgir\\Model\\": [
+        "model/"
+      ],
+      "Devcom\\Payamgir\\Core\\": [
+        "core/"
+      ],
+      "Devcom\\Payamgir\\App\\": [
+        "app/"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "adeveloper",
+      "email": "takeo.tanha@live.com"
+    }
+  ]
+}
